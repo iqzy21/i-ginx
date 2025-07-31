@@ -1,1 +1,1 @@
-# i-gnix
+# i-ginx
