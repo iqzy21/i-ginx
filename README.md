@@ -1,5 +1,5 @@
 # i-ginx
-
+## http://nginx.iqbaal.uk/
 This is a mini project i did to reinforce my learning about networking.
 
 ## Step 1: Domain Purchase
@@ -105,7 +105,12 @@ Here is the website after the customisation
 Overall im happy with how this project turned out and gave me the opportunity to be hands on a solve a real world problem!
 
 ## Step 11: Git Deployment
-I then decided to create this repo on github to show my work and my website 
+I then decided to create this repo on github/git to show my work and my website 
+in this image you can see me staging and commiting the index.html file for my nginx website
+<img width="1097" height="452" alt="Screenshot 2025-08-01 134422" src="https://github.com/user-attachments/assets/9850041b-f147-41c7-af75-6025954b17c8" />
+
+after that I did the samething again and updated the code within the index.html file
+
 
 
 ## Key Learnings
