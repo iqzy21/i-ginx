@@ -1,1 +1,120 @@
-<h1>Hello from i-gnix 🚀</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to i-ginx – An Nginx Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --gradient: linear-gradient(135deg, #6a11cb, #2575fc);
+      --glass: rgba(255, 255, 255, 0.08);
+      --text-color: #f4f4f8;
+      --accent: #e0b3ff;
+      --link: #ffd6fa;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: var(--gradient);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .container {
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin: 0.7rem 0;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    em {
+      display: block;
+      margin-top: 2rem;
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .emoji {
+      font-size: 1.8rem;
+    }
+
+    .socials {
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .socials a svg {
+      width: 32px;
+      height: 32px;
+      fill: #fff;
+      transition: transform 0.2s ease;
+    }
+
+    .socials a:hover svg {
+      transform: scale(1.1);
+      fill: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to <strong>i-ginx</strong> <span class="emoji">🚀</span></h1>
+    <p>Your Nginx server is <strong>installed</strong> and <strong>running</strong> successfully.</p>
+    <p>Need help? Visit:</p>
+    <p>
+      <a href="http://nginx.org" target="_blank">nginx.org</a> |
+      <a href="http://nginx.com" target="_blank">nginx.com</a>
+    </p>
+
+    <div class="socials">
+      <!-- GitHub -->
+      <a href="https://github.com/iqzy21" target="_blank" aria-label="GitHub">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <title>GitHub</title>
+          <path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.2-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.2 1.6 1.2 1 .1.7 1.2 2.6 1.7.1-.7.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-6A4.8 4.8 0 014.5 8a4.5 4.5 0 01.1-3.2s1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2a4.5 4.5 0 01.1 3.2 4.8 4.8 0 011.3 3.3c0 4.8-2.8 5.7-5.5 6 .4.4.7 1 .7 2v3c0 .3.2.7.8.6A12 12 0 0012 .3" />
+        </svg>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/iqbaal-elhajoui-2505032a0/" target="_blank" aria-label="LinkedIn">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <title>LinkedIn</title>
+          <path d="M20.45 20.45h-3.55v-5.6c0-1.3-.03-3-1.85-3-1.86 0-2.14 1.45-2.14 2.9v5.7h-3.55V9h3.4v1.6h.05c.47-.9 1.65-1.85 3.4-1.85 3.64 0 4.3 2.4 4.3 5.45v6.25zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.1 20.45H3.57V9h3.53v11.45zM22.23 0H1.77A1.77 1.77 0 000 1.77v20.46C0 23.55.45 24 1.77 24h20.46A1.77 1.77 0 0024 22.23V1.77A1.77 1.77 0 0022.23 0z"/>
+        </svg>
+      </a>
+    </div>
+
+    <em>Styled with 💜 by Iqbaal El-hajoui</em>
+  </div>
+</body>
+</html>
